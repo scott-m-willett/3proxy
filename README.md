@@ -9,7 +9,7 @@ Original project:
 Modifications
 -------------
 
-Minimal changes were made to the original project. I haven't included the source code. It is however available on the original project page, and the changes made are documented below:
+Minimal changes were made to the original project. I haven't included the source code, just the compiled files/additions within this repo. It is however available on the original project page, and all the changes made are documented below:
 
 - Makefile.msvc was modified to exclude the libraries libeay32.lib and ssleay32.lib, and remove the plugins FilePlugin SSLPlugin. This was due to compilation issues within windows.
 - Line 392 of file src/3proxy.c was commented out. This was causing issues installing via the command line in a situation where you didn't have/need a GUI. Removed a messagebox popup.
