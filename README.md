@@ -24,4 +24,4 @@ This is useful for penetration testing with Kali Linux in the situation you gain
 
 I recommend cloning this repo to the /opt/3proxy directory.
 
-You can also download this meterpreter script at () and download it to your /usr/share/metasploit-framework/scripts/meterpreter directory. With an administrator/system meterpreter shell, you can then run "run socks_proxy" to upload and install this proxy for use.
+You can also download this meterpreter script at (https://github.com/scott-m-willett/MeterpreterScripts/blob/master/socks_proxy.rb) and download it to your /usr/share/metasploit-framework/scripts/meterpreter directory. With an administrator/system meterpreter shell, you can then run "run socks_proxy" to upload and install this proxy for use.
